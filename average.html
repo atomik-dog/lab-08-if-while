@@ -2,19 +2,15 @@
 <html>
 <body>
 <script>
-
-var input1 = prompt("Number please...");
-var input2 = prompt("Number please...");
-var input3 = prompt("Number please...");
-var input4 = prompt("Number please...");
-var num1 = parseInt(input1, 10);
-var num2 = parseInt(input2, 10);
-var num3 = parseInt(input3, 10);
-var num4 = parseInt(input4, 10);
-
-for(var i = 0; i >= 1; i = i + 1;) { 
-	console.log(i);
+var num
+var sum = 0
+for (var i = 0; i < 4; i++){
+num = prompt("Number please...")
+num = parseInt(num)
+sum = sum + num
 }
+var average = sum / 4
+console.log("The average is: " + average)
 </script>
 </body>
 </html>
